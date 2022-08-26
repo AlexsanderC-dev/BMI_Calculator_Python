@@ -6,7 +6,7 @@ my_weight = input("\nEnter your weight in kg: ")
 
 bmi = (float(my_weight) / float(my_height) ** 2)
 
-print(bmi)
+print(round(bmi,2))
 
 if bmi < 18.6:
     print("\nYou are Underweight. Go to the Doctor !\n\n")
